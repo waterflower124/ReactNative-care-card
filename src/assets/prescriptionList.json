@@ -1,0 +1,67 @@
+{
+	"prescriptions": [
+		{
+			"title": "Prescription 01/07/18",
+			"doctor_name": "doctor1",
+			"clinic_name": "clinic1",
+			"date": "01/07/18",
+		},
+		{
+			"title": "Prescription 03/07/18",
+			"doctor_name": "doctor2",
+			"clinic_name": "clinic2",
+			"date": "03/07/18",
+		},
+		{
+			"title": "Prescription 04/07/18",
+			"doctor_name": "doctor3",
+			"clinic_name": "clinic3",
+			"date": "04/07/18",
+		},
+		{
+			"title": "Prescription 05/07/18",
+			"doctor_name": "doctor4",
+			"clinic_name": "clinic4",
+			"date": "05/07/18",
+		},
+		
+	],
+	"drugs": [
+		{
+			"parent": 0,
+			"name": "vitaminA",//drug name
+			"duration": "10",//how long this drug must be taken
+			"period": "3",//how many times this drug must be taken per day
+			"dosage": "2",//how much drugs at once
+			"condition": "drink plenty",//condition of taken drugs
+			"repeat": "never",//what time taking drugs must be repeated
+			"comment": "comment1_drug1",
+			"start_day": "01/07/18",
+			"end_day": "05/07/18",
+		},
+		{
+			"parent": 0,
+			"name": "vitaminB",
+			"duration": "5",
+			"period": "4",
+			"dosage": "6",
+			"condition": "empty stomach",
+			"repeat": "every day",
+			"comment": "comment1_drug2",
+			"start_day": "01/07/18",
+			"end_day": "03/07/18",
+		},
+		{
+			"parent": 0,
+			"name": "aspirin",
+			"duration": "5",
+			"period": "4",
+			"dosage": "6",
+			"condition": "empty stomach",
+			"repeat": "every week",
+			"comment": "comment1_drug3",
+			"start_day": "01/07/18",
+			"end_day": "07/07/18",
+		},
+	],
+}
